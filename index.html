@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Beautiful Dashboard</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div id="logo">
+        <img src="/imgs/application-braces.png" alt="app-logo" />
+        <p>Dashboard</p>
+      </div>
+      <div class="sidebar-links">
+          <div class="sidebar-main-tabs">
+            <a href=""> <img src="imgs/home.png" alt="home-icon" />Home</a>
+            <a href=""><img src="imgs/card-account-details-outline.png" alt="profile-icon">Profile</a>
+            <a href=""><img src="imgs/message-reply.png" alt="message-icon">Messages</a>
+            <a href=""><img src="imgs/clock.png" alt="history-icon">History</a>
+            <a href=""><img src="imgs/note-multiple.png" alt="tasks-icon">Tasks</a>
+            <a href=""><img src="imgs/account-group.png" alt="communities-icon">Communities</a>
+          </div>
+          <div class="sidebar-secondary-tabs">
+            <a href=""><img src="imgs/cog.png" alt="settings-icon">Settings</a>
+            <a href=""><img src="imgs/lifebuoy.png" alt="support-icon">Support</a>
+            <a href=""><img src="imgs/shield-check.png" alt="privacy-icon">Privacy</a>
+          </div>
+      </div>
+    </aside>
+    <div class="main">
+      <header id="header">
+        <div class="upper-header">
+          <div class="loupe-icon"></div>
+          <div class="search-bar"></div>
+          <div class="notifications-icon"></div>
+          <div class="upper-header-avatar"></div>
+          <div class="active-user">Morgan Oakley</div>
+        </div>
+        <div class="lower-header">
+          <div class="lower-header-avatar"></div>
+          <div class="user-welcome">Hi there, Morgan Oakley (@morgan)</div>
+          <div class="action-buttons">
+            <button id="btn-new"></button>
+            <button id="btn-upload"></button>
+            <button id="btn-share"></button>
+          </div>
+        </div>
+      </header>
+      <main id="main-content"></main>
+    </div>
+  </body>
+</html>
