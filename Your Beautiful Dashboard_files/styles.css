@@ -226,7 +226,7 @@ border-left: 9px solid rgb(231, 174, 17);
 }
 
 .announcements-section, .trending-section {
-  padding: 20px 35px 30px 0px;
+  padding: 22px 35px 30px 0px;
 }
 
 .announcements-card b {
@@ -240,7 +240,7 @@ border-left: 9px solid rgb(231, 174, 17);
   color: rgb(108, 108, 109);
 }
 
-.announcements-card {
+.announcements-card, .trending-card {
   padding: 40px 30px;
 }
 
@@ -255,11 +255,10 @@ hr { display: block; height: 1px;
 
 .trending-card {
   display: grid;
-  grid-template-columns: 70px 180px;
+  grid-template-columns: 70px 150px;
   grid-template-rows: repeat(4, 60px);
-  column-gap: 5px;
+  column-gap: 10px;
   row-gap: 20px;
-  padding: 15px 10px;
 }
 
 .trending-column1 {
@@ -278,11 +277,11 @@ hr { display: block; height: 1px;
 }
 
 .trending-column2 p {
-  font-size: 1.0rem;
+  font-size: 1rem;
   color: rgb(108, 108, 109);
 }
 
 .trending-column2 b {
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
 }
